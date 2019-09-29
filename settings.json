@@ -1,0 +1,46 @@
+{
+    "discord": {
+        "token": "NjIwMzU2MzAxNDM5ODkzNTA1.XZD_nw.9m3TF_NXhY9_q0_NgU0CCIqTEaE",
+        "user": "620356301439893505",
+        "giveawayEmoji": "593992166502563865"
+    },
+
+    "coin": {
+        "type": "bcm",
+        "symbol": "BCM",
+        "decimals": 8,
+        "withdrawFee": 0.01,
+        "port": 11587,
+        "user": "bcm",
+        "pass": "pass"
+    },
+
+    "mysql": {
+        "db": "tipbot",
+        "tips": "tips",
+        "user": "root",
+        "pass": "pass"
+    },
+
+    "commands": {
+        "example": [
+            "626540598035349567"
+        ]
+    },
+
+    "pools": {
+        "pool": {
+            "printName": "Pool",
+            "admins": [
+                "223676229721522188"
+            ],
+            "members": [223676229721522188]
+        },
+
+        "giveaways": {
+            "printName": "Giveaways",
+            "admins": [],
+            "members": []
+        }
+    }
+}
