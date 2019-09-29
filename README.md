@@ -51,7 +51,22 @@ To install the bot:
 - Set up any channel locked commands in `settings.json`'s `commands` var.
     - If you wish to lock a command to a channel, edit `example` to be the name of the command, and `ROOM ID` to be the value gotten from right-clicking a room and clicking `Copy ID`. You can add multiple channel IDs to the array.
     - To setup more channel locks, simply copy the `example` template and fill it our properly.
+
+
 - Install NodeJS dependencies via `npm i`.
+
+sudo apt-get install python-software-properties
+
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+sudo apt-get install nodejs
+
+sudo npm install pm2@latest -g
+
+
+npm install --save discord.js in your bot's project folder
+
+
     - `discord.js` will print several warnings about requiring a peer but none was installed. These are normal, and refer to optional packages for connecting to voice channels, something we don't do.
 
 All pools must be created via settings.json. All edits to the list of admins must also be done there. Members can be added and removed with `!pool NAME add @USER` and `!pool NAME remove @USER`, where NAME is the name of the pool, and @USER is a ping of the Discord user. To send from a pool, use `!tip POOL @USER AMOUNT`.
