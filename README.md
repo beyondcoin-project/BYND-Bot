@@ -29,6 +29,10 @@ To install the bot:
         - `contract` set to the ERC20's contract address.
 - Install MySQL.
     - Create a database.
+    
+sudo apt-get install phpmyadmin    
+    
+    
     - Create a table with `name VARCHAR(64), address VARCHAR(64), balance VARCHAR(64), notify tinyint(1)`.
     - Edit the `settings.json` file's `mysql` var to have:
         - `db` set to the name of the database you made for the bot.
