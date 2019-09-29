@@ -1,17 +1,17 @@
 {
     "discord": {
-        "token": "M discord bot user token",
-        "user": "BOT USER ID",
+        "token": "NjIwMzU2MzAxNDM5ODkzNTA1.XZD_nw.9m3TF_NXhY9_q0_NgU0CCIqTEaE",
+        "user": "620356301439893505",
         "giveawayEmoji": "593992166502563865"
     },
 
     "coin": {
-        "type": "btc",
-        "symbol": "BTC",
+        "type": "bcm",
+        "symbol": "BCM",
         "decimals": 8,
         "withdrawFee": 0.01,
-        "port": 8332,
-        "user": "user",
+        "port": 11587,
+        "user": "bcm",
         "pass": "pass"
     },
 
