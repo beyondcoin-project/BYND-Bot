@@ -60,4 +60,6 @@ There is also a giveaway command to run giveaways with, yet it is currently disa
 
 Neither of these commands are documented as they are only to be used by whoever runs the bot, and that is not most people. It's not for security via obscurity, but rather because a long help file where half the commands aren't needed is annoying.
 
-Want to donate? 0x630e3F12079D3425F434F28cdc58dE7aDeE2268F
+Start Bot:
+
+Node main.js
