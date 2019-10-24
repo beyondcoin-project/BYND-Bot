@@ -32,15 +32,15 @@
         "pool": {
             "printName": "Pool",
             "admins": [
-                "USER ID"
+                "420583786053369868"
             ],
             "members": []
         },
 
         "giveaways": {
             "printName": "Giveaways",
-            "admins": [],
-            "members": []
+            "admins": [420583786053369868],
+            "members": [420583786053369868]
         }
     }
 }

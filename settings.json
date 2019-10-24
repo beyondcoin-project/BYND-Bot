@@ -30,17 +30,17 @@
 
     "pools": {
         "pool": {
-            "printName": "Pool",
+            "printName": "Beyondcoin-Pool",
             "admins": [
-                "223676229721522188"
+                "420583786053369868"
             ],
-            "members": [223676229721522188]
+            "members": [420583786053369868]
         },
 
         "giveaways": {
             "printName": "Giveaways",
-            "admins": [],
-            "members": []
+            "admins": [420583786053369868],
+            "members": [420583786053369868]
         }
     }
 }
