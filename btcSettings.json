@@ -1,16 +1,16 @@
 {
     "discord": {
-        "token": "bot token",
-        "user": "620356301439893505",
+        "token": "BOT_TOKEN",
+        "user": "634092791168892948",
         "giveawayEmoji": "593992166502563865"
     },
 
     "coin": {
-        "type": "bcm",
-        "symbol": "BCM",
+        "type": "bynd",
+        "symbol": "BYND",
         "decimals": 8,
         "withdrawFee": 0.01,
-        "port": 11587,
+        "port": 10332,
         "user": "rpc_user",
         "pass": "rpc_pass"
     },
