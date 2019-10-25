@@ -13,7 +13,7 @@ async function parseMsg(msg) {
     }
 
     //Else, print that the command doesn't exist.
-    msg.obj.reply("That is not a command. Run \"!help\" to get a list of commands or edit your last message.");
+    //msg.obj.reply("That is not a command. Run \"!help\" to get a list of commands or edit your last message.");
 }
 
 //Prepares, verifies, and formats a message.
@@ -103,12 +103,14 @@ async function main() {
     //Declare the commands and load them.
     commands = {
         help:     require("./commands/help.js"),
+        h:     require("./commands/help.js"),
         deposit:  require("./commands/deposit.js"),
         balance:  require("./commands/balance.js"),
+        bal:      require("./commands/balance.js"),
         tip:      require("./commands/tip.js"),
         withdraw: require("./commands/withdraw.js"),
         pool:     require("./commands/pool.js"),
-        //giveaway: require("./commands/giveaway.js")
+        giveaway: require("./commands/giveaway.js")
     };
 
     //Create a Discord process.client.
