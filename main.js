@@ -103,7 +103,7 @@ async function main() {
     //Declare the commands and load them.
     commands = {
         help:     require("./commands/help.js"),
-        h:     require("./commands/help.js"),
+        h:        require("./commands/help.js"),
         deposit:  require("./commands/deposit.js"),
         balance:  require("./commands/balance.js"),
         bal:      require("./commands/balance.js"),
