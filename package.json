@@ -1,13 +1,13 @@
 {
-    "name": "tip-bot",
+    "name": "bynd-bot",
     "version": "2.0.0",
-    "description": "A BTC and ERC20 TipBot for Discord.",
-    "author": "Luke Parker/kayabaNerve",
+    "description": "A Beyondcoin (BYND) TipBot for Discord.",
+    "author": "Luke Parker/kayabaNerve/Kristian Kramer",
     "license": "MIT",
     "main": "main.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/kayabaNerve/tip-bot.git"
+        "url": "https://github.com/beyondcoin-project/bynd-bot.git"
     },
     "dependencies": {
         "await-sleep": "0.0.1",
