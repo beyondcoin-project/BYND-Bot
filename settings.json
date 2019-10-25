@@ -11,8 +11,8 @@
         "decimals": 8,
         "withdrawFee": 0.01,
         "port": 10332,
-        "user": "user",
-        "pass": "pass"
+        "user": "rpc_user",
+        "pass": "rpc_pass"
     },
 
     "mysql": {

@@ -1,7 +1,7 @@
 //BTC lib.
 var bitcoin = require("bitcoin-core");
 
-//BTC RPC Client.
+//BYND RPC Client.
 var client;
 
 //RAM cache of all the addresses and TXs.

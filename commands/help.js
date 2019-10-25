@@ -6,7 +6,7 @@ var fee = process.settings.coin.withdrawFee;
 
 //Default help tect.
 var help = `
-**TIPBOT COMMAND LIST**
+**BYND-BOT COMMAND LIST**
 
 To run a command, either preface it with "!" ("!deposit", "!tip") or ping the bot ("<@${bot}> deposit", "<@${bot}> tip").
 
@@ -24,9 +24,9 @@ Withdraws AMOUNT to ADDRESS, charging a ${fee} ${symbol} fee.
 -- *!deposit*
 Prints your personal deposit address.
 
-If you have any questions, feel free to ask <@272093437166223360>.
+If you have any questions, feel free to ask <@420583786053369868>.
 
-This bot is fully open source and available at https://github.com/kayabaNerve/tip-bot.
+This bot is fully open source and available at https://github.com/beyondcoin-project/BYND-Bot.
 `;
 
 module.exports = async (msg) => {
