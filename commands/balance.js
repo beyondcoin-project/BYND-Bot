@@ -28,6 +28,6 @@ module.exports = async (msg) => {
         return;
     }
 
-    //If no argument was provided, tell the user thir balance.
+    //If no argument was provided, tell the user their balance.
     msg.obj.reply("You have " + (await process.core.users.getBalance(msg.sender)).toString() + " " + process.settings.coin.symbol + ".");
 };
