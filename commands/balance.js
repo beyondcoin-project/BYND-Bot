@@ -29,5 +29,6 @@ module.exports = async (msg) => {
     }
 
     //If no argument was provided, tell the user their balance.
-    msg.obj.reply("You have " + (await process.core.users.getBalance(msg.sender)).toString() + " " + process.settings.coin.symbol + ".");
+    msg.obj.reply("I PMed your balance!")
+    msg.obj.author.send("You have " + (await process.core.users.getBalance(msg.sender)).toString() + " " + process.settings.coin.symbol + ".");
 };
