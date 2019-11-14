@@ -62,5 +62,5 @@ module.exports = async (msg) => {
         return;
     }
 
-    msg.obj.reply("Success! Your TX hash is " + hash + ".");
+    msg.obj.reply("**Withdrew** **" + amount + "** **BYND** \nView the transaction here: " + "http://byndexplorer.com/tx/" + hash + ".");
 };
