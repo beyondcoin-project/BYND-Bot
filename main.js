@@ -111,7 +111,8 @@ async function main() {
         withdraw: require("./commands/withdraw.js"),
         pool:     require("./commands/pool.js"),
         giveaway: require("./commands/giveaway.js"),
-        addnodes: require("./commands/addnodes.js")
+        addnodes: require("./commands/addnodes.js"),
+        invite:   require("./commands/invite.js")
     };
 
     //Create a Discord process.client.
